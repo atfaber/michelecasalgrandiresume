@@ -1,0 +1,91 @@
+{
+  "name": "Michele Casalgrandi",
+  "location": "Orlando, FL",
+  "email": "EMAIL_TOKEN",
+  "linkedin": "https://www.linkedin.com/in/michele-casalgrandi",
+  "github": "https://github.com/atfaber",
+  "json_resume": "https://github.com/atfaber/michelecasalgrandiresume.json",
+  "education": [
+    {
+      "degree": "Post-Graduate Program in Artificial Intelligence and Machine Learning",
+      "institution": "University of Texas at Austin",
+      "location": "Austin, TX",
+      "year": "2021"
+    },
+    {
+      "degree": "Bachelor of Science – Computer Science",
+      "institution": "University of Central Florida",
+      "location": "Orlando, FL"
+    }
+  ],
+  "skills": {
+    "functional": ["JIRA", "Confluence", "Agile/SCRUM", "Oracle Service Cloud"],
+    "technical": ["Python", "Java", "C++", "Git", "Bitbucket", "Bamboo", "Jenkins", "Docker", "Kubernetes", "Helm", "Helmfile", "shell", "Linux"],
+    "cloud": ["Azure", "AKS", "Oracle Cloud Infrastructure (OCI)"],
+    "machine_learning": ["Object detection", "YOLOv7", "YOLOv8", "NCNN", "OpenCV", "OD CV models training", "scikit-learn", "Pandas"],
+    "data_science": ["Exploratory Data Analysis (EDA)", "Seaborn", "Matplotlib", "Jupyter Notebook", "JupyterLab"]
+  },
+  "experience": [
+    {
+      "company": "Cole Engineering Services, Inc.",
+      "title": "Machine Learning Engineer",
+      "location": "Orlando, Florida",
+      "dates": {"from": "Dec 2022", "to": "present"},
+      "responsibilities": [
+        "Trained object detection models for low latency applications and improved their P/R performance.",
+        "Evaluated performance of new OD models. Evaluated OD and segmentation models for automated annotation of field-collected images.",
+        "Maintained image datasets, ensured data quality and identified areas of concern to inform future data collections and annotation methods.",
+        "Migrated applications to SBC devices and built (Docker + QEMU and native) for target architecture.",
+        "Identified and fixed integration issues and bugs in C, C++. Created and maintained scripts to start, monitor and track the health of applications.",
+        "Integrated GPS/GNSS receivers and LTE board with embedded devices running Linux, improved the accuracy of location and the robustness of wireless connectivity.",
+        "Wrote a Java declarative test framework to ensure accurate event processing by containerized services communicating via a message broker.",
+        "Created and maintained Bamboo build pipelines for multiple projects."
+      ]
+    },
+    {
+      "company": "ORACLE America Inc.",
+      "title": "Software Engineer, SCRUM Master",
+      "location": "Orlando, Florida (remote)",
+      "dates": {"from": "Apr 2020", "to": "Mar 2022"},
+      "responsibilities": [
+        "Implemented CI/CD pipelines to build and deploy microservices, targeting Kubernetes clusters using Jenkins, Helm, Helmfile in a DevOps, Platform-as-Code environment.",
+        "Decreased time to discovery of defects and deployment issues by 2 days.",
+        "Implemented automated security and compliance scans resulting in higher sprint velocity and lower technical debt.",
+        "Led SCRUM activities for a team of senior software engineers for the delivery of a user action capture ETL/ELT data pipeline to Oracle Cloud Infrastructure (OCI) using containerized microservices.",
+        "Managed backlog, stand-ups, sprint planning, sprint review, and retrospective ceremonies in collaboration with the product owner, development, and platform teams.",
+        "Reduced stand-up calls duration by 70%."
+      ]
+    },
+    {
+      "company": "ORACLE America Inc.",
+      "title": "Sr Development Manager",
+      "location": "Orlando, Florida (remote)",
+      "dates": {"from": "Oct 2016", "to": "Mar 2020"},
+      "responsibilities": [
+        "Managed a team of senior engineers in the delivery of Oracle Service Cloud SaaS UI features.",
+        "Decreased time to resolutions of defects and service requests age by directly working and triaging customer service requests in collaboration with customer support.",
+        "Provisioned and configured Service Cloud instances to create reproducible test cases. Reduced time-to-resolution of customer reported defects by 3+ days."
+      ]
+    },
+    {
+      "company": "ORACLE Corp",
+      "title": "Development Manager",
+      "location": "Orlando, Florida (remote)",
+      "dates": {"from": "Feb 2009", "to": "Sep 2016"},
+      "responsibilities": [
+        "Managed a team of senior engineers in the rewrite, maintenance, and features implementation of a HIPAA-compliant attachment viewer and renderer for My Oracle Support (MOS) internal customer service application.",
+        "Interfaced with end-users, integrating applications teams and executive stakeholders to prioritize, plan, and deliver new features.",
+        "Introduced Agile SCRUM methodology resulting in shorter delivery cycles of product features."
+      ]
+    },
+    {
+      "company": "ORACLE Corp",
+      "title": "Development Manager, Product Manager",
+      "location": "Orlando, Florida",
+      "dates": "Apr 2006 - Jan. 2009",
+      "responsibilities": [
+        "Managed a team of senior engineers in the development, release and maintenance of Oracle E-Business Suite diagnostic tests and diagnostic tools."
+      ]
+    }
+  ]
+}
