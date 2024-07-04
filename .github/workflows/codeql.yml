@@ -97,4 +97,4 @@ jobs:
     - name: Validate experience dates
       shell: bash
       run: |
-        python src/python/validate_dates.py michelecasalgrandiresume.json resume_schema.json
+        python src/python/validate_dates.py michelecasalgrandiresume.json
