@@ -1,5 +1,7 @@
 ﻿{
     "$schema": "http://json-schema.org/draft-04/schema#",
+    "$id": "http://github.com/atfaber/michelecasalgrandiresume/resume_schema.json",
+    "title": "Resume' schema",
     "type": "object",
     "properties": {
         "name": {
