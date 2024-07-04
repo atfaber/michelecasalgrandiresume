@@ -1,6 +1,6 @@
 ﻿{
-    "$schema": "http://json-schema.org/draft-04/schema#",
-    "$id": "http://github.com/atfaber/michelecasalgrandiresume/resume_schema.json",
+    "$schema": "https://json-schema.org/draft-04/schema#",
+    "$id": "https://github.com/atfaber/michelecasalgrandiresume/resume_schema.json",
     "title": "Resume' schema",
     "type": "object",
     "properties": {

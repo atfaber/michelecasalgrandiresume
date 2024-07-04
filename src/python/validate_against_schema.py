@@ -1,10 +1,12 @@
+#!python
 import json
 import sys
 from jsonschema import validate, ValidationError, SchemaError
 
+
 def load_json_file(filepath):
     try:
-        with open(filepath, 'r') as file:
+        with open(filepath, 'r', encoding='utf-8-sig') as file:
             return json.load(file)
     except FileNotFoundError:
         print(f"Error: The file '{filepath}' was not found.")
@@ -13,15 +15,17 @@ def load_json_file(filepath):
         print(f"Error: Failed to decode JSON from file '{filepath}': {e}")
         sys.exit(1)
 
-def validate_json(json_data, schema):
+
+def validate_json(_json_data, _schema):
     try:
-        validate(instance=json_data, schema=schema)
+        validate(instance=_json_data, schema=_schema)
     except ValidationError as e:
         print(f"Validation Error: {e.message}")
         sys.exit(1)
     except SchemaError as e:
         print(f"Schema Error: {e.message}")
         sys.exit(1)
+
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
