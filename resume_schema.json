@@ -1,0 +1,128 @@
+﻿{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "$id": "https://github.com/atfaber/michelecasalgrandiresume/resume_schema.json",
+    "title": "Resume' schema",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "location": {
+            "type": "string"
+        },
+        "email": {
+            "type": "string",
+            "format": "email"
+        },
+        "linkedin": {
+            "type": "string",
+            "format": "uri"
+        },
+        "github": {
+            "type": "string",
+            "format": "uri"
+        },
+        "json_resume": {
+            "type": "string",
+            "format": "uri"
+        },
+        "education": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "degree": {
+                        "type": "string"
+                    },
+                    "institution": {
+                        "type": "string"
+                    },
+                    "location": {
+                        "type": "string"
+                    },
+                    "year": {
+                        "type": "string"
+                    },
+                    "major": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": true,
+                "required": [
+                    "degree",
+                    "institution"
+                ]
+            }
+        },
+        "skills": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "topic": {
+                        "type": "string"
+                    },
+                    "skillset": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        },
+                        "additionalItems": false
+                    }
+                },
+                "additionalProperties": true,
+                "required": [
+                    "topic",
+                    "skillset"
+                ]
+            }
+        },
+        "experience": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "company": {
+                        "type": "string"
+                    },
+                    "title": {
+                        "type": "string"
+                    },
+                    "location": {
+                        "type": "string"
+                    },
+                    "from": {
+                        "type": "string"
+                    },
+                    "to": {
+                        "type": "string"
+                    },
+                    "responsibilities": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        },
+                        "additionalItems": false
+                    }
+                },
+                "additionalProperties": true,
+                "required": [
+                    "company",
+                    "title",
+                    "location",
+                    "from",
+                    "to",
+                    "responsibilities"
+                ]
+            }
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "name",
+        "email",
+        "education",
+        "skills",
+        "experience"
+    ]
+}
