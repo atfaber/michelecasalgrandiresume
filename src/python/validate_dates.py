@@ -30,7 +30,7 @@ def validate_dates(_resume):
         if error is not None:
             raise ValueError(f"Error: 'to' date {job['to']} is {error} 'from' date {job['from']}.")
 
-    print("'to' date is before 'from' date. Validation successful.")
+        print(f"'from' {job['from']} is before 'to' {job['to']} - Validation successful.")
 
 
 if __name__ == "__main__":
