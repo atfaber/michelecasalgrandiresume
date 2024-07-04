@@ -22,8 +22,6 @@ At some point in time I will write code that will generate the _desired_ documen
 Yeah, the Curriculum Vitae, the C.V.
 ## The Spelling
 Resume, résumé, resumé.  There you go.
-## EMAIL_TOKEN?
-Yeah. I almost put my actual email address.
 ## TODOs
 - As a job candidate, I can point the resume generator to a job description and automatically populate my resumé with as many matching keywords as possible, so that the AI will return my resumé in the top 3 results.
 - Same as above but without lying.
